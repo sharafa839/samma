@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "French"; ObjectID = "56I-yG-5VW"; */
+"56I-yG-5VW.normalTitle" = "French";
+
+/* Class = "UILabel"; text = "please,Choose your language"; ObjectID = "dIm-Y3-aFO"; */
+"dIm-Y3-aFO.text" = "please,Choose your language";
+
+/* Class = "UIButton"; normalTitle = "Husa"; ObjectID = "iQO-6p-A1J"; */
+"iQO-6p-A1J.normalTitle" = "Husa";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "lAd-QR-eVG"; */
+"lAd-QR-eVG.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "oRi-K6-qIz"; */
+"oRi-K6-qIz.text" = "بريد الكتروني";
+
+/* Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "t9q-ZL-MRc"; */
+"t9q-ZL-MRc.normalTitle" = "Arabic";
+
+/* Class = "UILabel"; text = "password"; ObjectID = "xvE-bD-gq8"; */
+"xvE-bD-gq8.text" = "password";

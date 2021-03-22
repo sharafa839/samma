@@ -15,6 +15,10 @@
 		E266250F2608B62F00C6311F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E266250D2608B62F00C6311F /* LaunchScreen.storyboard */; };
 		E266251A2608B62F00C6311F /* SammaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26625192608B62F00C6311F /* SammaTests.swift */; };
 		E26625252608B62F00C6311F /* SammaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26625242608B62F00C6311F /* SammaUITests.swift */; };
+		E26625372608BE6C00C6311F /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E26625362608BE6C00C6311F /* Inter.ttf */; };
+		E26625752608EAE100C6311F /* AnimationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26625732608EAE100C6311F /* AnimationCard.swift */; };
+		E26625762608EAE100C6311F /* AnimationCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E26625742608EAE100C6311F /* AnimationCard.xib */; };
+		E266257B2608F08500C6311F /* SelectAdressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E266257A2608F08500C6311F /* SelectAdressViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,12 @@
 		E26625202608B62F00C6311F /* SammaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SammaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26625242608B62F00C6311F /* SammaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SammaUITests.swift; sourceTree = "<group>"; };
 		E26625262608B62F00C6311F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26625362608BE6C00C6311F /* Inter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inter.ttf; sourceTree = "<group>"; };
+		E266253B2608CB2600C6311F /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		E266253C2608CB2600C6311F /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E26625732608EAE100C6311F /* AnimationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCard.swift; sourceTree = "<group>"; };
+		E26625742608EAE100C6311F /* AnimationCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimationCard.xib; sourceTree = "<group>"; };
+		E266257A2608F08500C6311F /* SelectAdressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAdressViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,14 @@
 		E26625012608B62D00C6311F /* Samma */ = {
 			isa = PBXGroup;
 			children = (
+				E26625352608BE5800C6311F /* Fonts */,
 				E26625022608B62D00C6311F /* AppDelegate.swift */,
 				E26625042608B62D00C6311F /* SceneDelegate.swift */,
 				E26625062608B62D00C6311F /* ViewController.swift */,
 				E26625082608B62D00C6311F /* Main.storyboard */,
+				E26625732608EAE100C6311F /* AnimationCard.swift */,
+				E26625742608EAE100C6311F /* AnimationCard.xib */,
+				E266257A2608F08500C6311F /* SelectAdressViewController.swift */,
 				E266250B2608B62F00C6311F /* Assets.xcassets */,
 				E266250D2608B62F00C6311F /* LaunchScreen.storyboard */,
 				E26625102608B62F00C6311F /* Info.plist */,
@@ -126,6 +140,14 @@
 				E26625262608B62F00C6311F /* Info.plist */,
 			);
 			path = SammaUITests;
+			sourceTree = "<group>";
+		};
+		E26625352608BE5800C6311F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E26625362608BE6C00C6311F /* Inter.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +235,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = E26624F62608B62D00C6311F;
 			productRefGroup = E26625002608B62D00C6311F /* Products */;
@@ -231,6 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26625372608BE6C00C6311F /* Inter.ttf in Resources */,
+				E26625762608EAE100C6311F /* AnimationCard.xib in Resources */,
 				E266250F2608B62F00C6311F /* LaunchScreen.storyboard in Resources */,
 				E266250C2608B62F00C6311F /* Assets.xcassets in Resources */,
 				E266250A2608B62D00C6311F /* Main.storyboard in Resources */,
@@ -258,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E266257B2608F08500C6311F /* SelectAdressViewController.swift in Sources */,
+				E26625752608EAE100C6311F /* AnimationCard.swift in Sources */,
 				E26625072608B62D00C6311F /* ViewController.swift in Sources */,
 				E26625032608B62D00C6311F /* AppDelegate.swift in Sources */,
 				E26625052608B62D00C6311F /* SceneDelegate.swift in Sources */,
@@ -300,6 +327,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E26625092608B62D00C6311F /* Base */,
+				E266253B2608CB2600C6311F /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,6 +336,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E266250E2608B62F00C6311F /* Base */,
+				E266253C2608CB2600C6311F /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +410,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
